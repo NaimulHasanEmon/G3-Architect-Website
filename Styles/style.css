@@ -1,0 +1,12 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-list {
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
