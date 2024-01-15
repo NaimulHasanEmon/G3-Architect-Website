@@ -5,9 +5,6 @@
 .header {
     background-color: #FF900E1A;
     padding: 50px 100px;
-    /* had 240, I replaced with 100 */
-    max-width: 1920px;
-    max-height: 1322px;
 }
 
 .header-nav {
@@ -141,6 +138,7 @@
 
     .header-nav{
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .nav-list {
