@@ -73,7 +73,6 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-    margin: 32px;
     cursor: pointer;
 }
 
@@ -87,6 +86,48 @@
 .banner-img {
     display: flex;
     width: 100%;
+    margin-top: 30px;
+}
+
+.feature {
+    display: flex;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 85px 76px;
+}
+
+.first {
+    border-radius: 8px;
+    /* background: url(../images/team1.png), lightgray -85.564px 0px / 150.038% 100% no-repeat; */
+}
+
+.quick {
+    color:#727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.of-our {
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.features-text {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.features-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 70px;
 }
 
 /* Responsive */
