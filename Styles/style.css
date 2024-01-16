@@ -143,6 +143,15 @@
     font-weight: 600;
 }
 
+.some-facts-title {
+    margin: 130px 522px 24px 80px;
+}
+
+.some-facts-description {
+    margin: 24px auto 100px 80px;
+}
+
+
 
 /* Responsive */
 .hide {
@@ -190,5 +199,17 @@
     .facts-boxes {
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    
+    .some-facts-title {
+        margin: 130px auto 10px 10px;
+    }
+
+    .some-facts-description {
+        margin: 5px auto 10px 10px;
+    }
+    
+    .features-content {
+        padding-left: 10px;
     }
 }
