@@ -186,4 +186,9 @@
         gap: 20px;
         margin: 10px;
     }
+
+    .facts-boxes {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
