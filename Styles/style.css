@@ -198,6 +198,7 @@
 
     .facts-boxes {
         flex-direction: column;
+        gap: 40px;
         flex-wrap: wrap;
     }
     
