@@ -124,7 +124,7 @@
 .facts-boxes {
     display: flex;
     gap: 124.17px;
-    justify-content: center;
+    justify-content: space-around;
     margin: 100px;
 }
 
